@@ -1,0 +1,17 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: wayne-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.174:8848
+        namespace: a6b85d6c-a02c-49eb-9560-8499f47d2439
+    sentinel:
+      transport:
+        dashboard: 192.168.1.174:8080
+        port: 8719
+feign:
+  sentinel:
+    enabled: true
