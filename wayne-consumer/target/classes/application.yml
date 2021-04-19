@@ -15,3 +15,9 @@ spring:
 feign:
   sentinel:
     enabled: true
+
+
+
+inter:
+  name: Wayne的服务提供者
+  url: wayne-provider

@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "inter",
+      "type": "com.wayne.consumer.config.ConfigureConfig",
+      "sourceType": "com.wayne.consumer.config.ConfigureConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "inter.name",
+      "type": "java.lang.String",
+      "sourceType": "com.wayne.consumer.config.ConfigureConfig"
+    },
+    {
+      "name": "inter.url",
+      "type": "java.lang.String",
+      "sourceType": "com.wayne.consumer.config.ConfigureConfig"
+    }
+  ],
+  "hints": []
+}
